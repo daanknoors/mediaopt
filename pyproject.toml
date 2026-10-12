@@ -1,0 +1,28 @@
+[project]
+name = "mediaopt"
+version = "0.1.0"
+description = "Cost-aware cell-culture media experiment recommendation (technical assessment)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "matplotlib>=3.8",
+    "scikit-learn>=1.4",
+    "scipy>=1.11",
+]
+
+[dependency-groups]
+# Installed by default with `uv sync`
+dev = [
+    "jupyterlab>=4.0",
+    "ipykernel>=6.29",
+    "nbconvert>=7.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

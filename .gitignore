@@ -1,0 +1,12 @@
+archive/
+data/
+docs/Case Study*.docx
+references/
+
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+~$*
+
